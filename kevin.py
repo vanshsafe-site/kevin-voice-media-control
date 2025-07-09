@@ -83,8 +83,6 @@ def handle_command(command):
         speak("Thank you, boss. I'm here to help.")
     elif "thank you" in command or "thanks" in command:
         speak("You're welcome. Always at your service.")
-    else:
-        speak("Command not recognized.")
 
 # Start listening in a background thread
 def listen_forever():
