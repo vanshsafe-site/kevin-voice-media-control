@@ -1,0 +1,14 @@
+SpeechRecognition==3.10.0
+PyAudio==0.2.13
+pyautogui==0.9.54
+playsound==1.3.0
+gTTS==2.3.2
+rich==13.6.0
+pycaw==20230407
+sounddevice==0.4.6
+soundfile==0.12.1
+wave==0.0.2
+comtypes==1.2.0
+requests==2.31.0  # Required by gTTS
+PyWavelets==1.4.1  # Required by soundfile
+numpy==1.24.3  # Required by multiple packages 
