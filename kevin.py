@@ -583,9 +583,8 @@ def handle_command(command):
             state.status = status_msg
             return
 
-    # Unknown command
-    speak("I didn't understand that command, boss. Please try again.")
-    state.status = "Unknown Command"
+    # Silently ignore unrecognized commands
+    state.status = "Ready..."
 
 # Enhanced listening function with better error handling
 def listen_forever():
